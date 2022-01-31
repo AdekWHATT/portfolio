@@ -1,5 +1,5 @@
 import React from 'react';
-
+import avatar from "../About/avatar.png"
 function About() {
 
     return (
@@ -7,7 +7,7 @@ function About() {
             <h2 class="top-title">Немного обо мне . . . </h2>
             <hr></hr>
             <div>
-                <img class="mb-5" id="avatar" src="https://klike.net/uploads/posts/2019-03/1551511801_1.jpg" alt="Вячеслав Килин" />
+                <img class="mb-5" id="avatar" src={avatar} alt="Вячеслав Килин" />
                 <p>
                     "Скажи мне — и я забуду, покажи мне — и я запомню, дай мне сделать — и я пойму."
                     Я самоучка, набираюсь знаниями и опытом из книг и курсов.Нравится всё что связано с фронтенд разработкой,
@@ -21,5 +21,4 @@ function About() {
         </section>
     )
 }
-
 export default About;
